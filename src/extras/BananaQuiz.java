@@ -13,11 +13,11 @@ public class BananaQuiz
 	String a =	JOptionPane.showInputDialog("do you like bananna's yes or no?");
 		
 		//2. if they say no, 
-	if(a==("no")) { JOptionPane.showMessageDialog(null, "Your Crazy!"); System.exit(0);}
+	if(a.equals("no")) { JOptionPane.showMessageDialog(null, "Your Crazy!"); System.exit(0);}
 			//tell them they are crazy 
 			//and end quiz
 		//3. if they say yes
-	else	if(a==("yes")) { String a2= JOptionPane.showInputDialog(null, "What is your favorite hobby!");
+	else	if(a.equals("yes")) { String a2= JOptionPane.showInputDialog(null, "What is your favorite hobby!");
 		//	ask them what is their favorite hobby
 		//	show a pop up that says "<your hobby> is much better with bananas!"
 	JOptionPane.showMessageDialog(null, "a2is much better with bananas");}
@@ -26,5 +26,5 @@ public class BananaQuiz
 		//	show a pop up that says â€œYou are bananas!â€�
 	
 	}
-
+	
 }
